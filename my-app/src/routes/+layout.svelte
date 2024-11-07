@@ -1,5 +1,10 @@
+<script>
+    import img from "$lib/assets/logobackground0.png";
+</script>
+
+
 <nav>
-    <h1>Logo_placeholder</h1>
+    <img class= "logo-navbar" src={img} alt="logo"/>
     <ul>
         <li>
             <a href="/">Home</a>
@@ -19,20 +24,24 @@
     </ul>
 </nav>
 
+
+
+
 <slot/>
 
 <style>
     nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;   
+        background-color: whitesmoke; 
 
     }
     ul {
         display: flex;
         list-style: none; 
         text-decoration: none;
-        font-size: 1.5em;   
+        font-size: 1.45em;   
     }
 
     li {
@@ -40,10 +49,10 @@
         text-decoration: none;
     }
 
-    h1 {
-        margin: 0;
-        font-size: 1.5em;
-        margin-left: 20px;
+    .logo-navbar {
+        width: 80px;
+        height: auto;
+        margin-left: 5em;
     } 
 
     a {
