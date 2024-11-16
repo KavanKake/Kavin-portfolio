@@ -34,7 +34,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;   
-        background-color: whitesmoke; 
+        background-color: whitesmoke 
 
     }
     ul {
