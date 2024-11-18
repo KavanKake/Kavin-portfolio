@@ -3,7 +3,8 @@
     import github_black from "$lib/assets/github_black.png";
     import insta_black from "$lib/assets/instagram_logo.png";
     import insta_white from "$lib/assets/instagram_white.png";
-    import face from "$lib/assets/facebook_logo.png";
+    import face from "$lib/assets/facebook_logo.png";  
+    import linkedin_black from "$lib/assets/linkedin_black.png"; 
 </script>
 
 
@@ -28,6 +29,10 @@
 
     <a class="button" href="https://www.facebook.com/profile.php?id=61550619093513">
         <img class="logo" src={face} alt="button" />
+    </a>
+
+    <a class="button" href="www.linkedin.com/in/kavin-lokeswaran">
+        <img class="logo" src={linkedin_black} alt="button" />
     </a>
 
 </div>
@@ -86,7 +91,7 @@
         align-content: space-between;
         border: 3px solid #024D98;
         border-radius: 30%;
-        padding: 0.5em;
+        padding: 0.25em;
         &:hover{
             scale: 1.2;
         }
