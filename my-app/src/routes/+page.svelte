@@ -55,16 +55,17 @@
 
 <style>
 
-
     .frontpage {
         display: flex;
         flex-direction: row;
         gap: 10em;
         margin-left: 2em;
+        overflow-x: hidden;
     }
 
     .section_1{
         margin-top: 15em;
+        margin-left: 6em;
     }
 
     .hello{
@@ -74,7 +75,7 @@
         font-size: 1.5em;   
         margin-bottom: 0.25em;
         margin-top: 0em;
-        margin-left: 5.175em;
+
         width: fit-content;
 
     }
@@ -91,7 +92,7 @@
         font-size: 5em;   
         margin-bottom: 0em;
         margin-top: 0em;
-        margin-left: 1.5em;
+
         width: fit-content;
     }
 
@@ -99,7 +100,6 @@
         display: flex;
         flex-direction: row;
         gap: 2.5em;
-        margin-left: 6.5em;
         padding: 20px;
         width: fit-content;
     }
@@ -127,10 +127,49 @@
     }
 
     .frontpage_picture{
-        display: flex;
-        justify-content: flex-end;
         height: 45em;
         width: fit-content;
+        opacity: 100;
+
+    }
+
+
+
+
+    @media (max-width: 990px) {
+        .frontpage {
+            gap: 1em;
+            margin-left: 0;
+        }
+
+        .section_1{
+            margin-left: 2em;
+        }
+
+        .myname{
+            font-size: 5em;
+        }
+    }
+
+
+    @media (max-width: 570px) {
+        .frontpage_picture{
+            opacity: 0;
+            overflow-x: hidden;
+        }
+
+        .hello{
+            font-size: 1em;
+        }
+
+        .myname{
+            font-size: 3em;
+        }
+
+        .btns{
+            gap: 1em;
+            scale: 0.8;
+        }
     }
 </style>
 

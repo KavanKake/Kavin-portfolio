@@ -34,7 +34,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;   
-        background-color: whitesmoke 
+        background-color: whitesmoke; 
+        overflow-x: hidden;
 
     }
     ul {
@@ -69,6 +70,16 @@
         background-color: #024D98;
         border-radius: 10px;
         padding: 10px;
+    }
+
+
+    @media (max-width: 1040px) {
+        .logo-navbar {
+            margin-left: 2em;
+        }
+        a {
+            font-size: 1em;
+        }
     }
 </style>
 
