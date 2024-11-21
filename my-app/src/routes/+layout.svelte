@@ -19,9 +19,9 @@
             <a href="/extrapages">Extra pages</a>
         </li>
         <li>
-            <a class = "contactme" href="/Contactme">Contact me</a>
+            <a class = "contactme" href="/contactme">Contact me</a>
         </li>
-    </ul>
+    </ul>  
 </nav>
 
 
@@ -52,11 +52,13 @@
     .logo-navbar {
         width: 80px;
         height: auto;
-        margin-left: 5em;
+        margin-left: 7.5em;
+        scale: 1.5;
     } 
 
     a {
         font-family: coolvetica;
+        font-size: 1.2em;
         text-decoration: none;
         color: black;
     }

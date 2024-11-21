@@ -5,44 +5,66 @@
     import insta_white from "$lib/assets/instagram_white.png";
     import face from "$lib/assets/facebook_logo.png";  
     import linkedin_black from "$lib/assets/linkedin_black.png"; 
+    import homepage_picture from "$lib/assets/homepage_farge_transparent.png";
 </script>
 
 
 
 
 <div class="space"></div>
-<h6 class="hello">Hello, my name is</h6>
-<h1 class="myname">Kavin</h1>
-<h1 class="myname">Lokeswaran</h1>
-
-
-
-<div class="btns">
-
-    <a class="button" href="https://github.com/KavanKake">
-        <img class="logo" src={github_black} alt="button" />
-    </a>
-
-    <a class="button" href="https://www.instagram.com/kavin_lokeswaran_/">
-        <img class="logo" src={insta_black} alt="button" />
-    </a>
-
-    <a class="button" href="https://www.facebook.com/profile.php?id=61550619093513">
-        <img class="logo" src={face} alt="button" />
-    </a>
-
-    <a class="button" href="www.linkedin.com/in/kavin-lokeswaran">
-        <img class="logo" src={linkedin_black} alt="button" />
-    </a>
-
+<div class="frontpage">
+    <div class="section_1">
+        <h6 class="hello">Hello, my name is</h6>
+        <h1 class="myname">Kavin</h1>
+        <h1 class="myname">Lokeswaran</h1>
+        
+        
+        
+        <div class="btns">
+        
+            <a class="button" href="https://github.com/KavanKake">
+                <img class="logo" src={github_black} alt="button" />
+            </a>
+        
+            <a class="button" href="https://www.instagram.com/kavin_lokeswaran_/">
+                <img class="logo" src={insta_black} alt="button" />
+            </a>
+        
+            <a class="button" href="https://www.facebook.com/profile.php?id=61550619093513">
+                <img class="logo" src={face} alt="button" />
+            </a>
+        
+            <a class="button" href="https://www.linkedin.com/in/kavin-lokeswaran/">
+                <img class="logo" src={linkedin_black} alt="button" />
+            </a>
+        
+        </div>
+    </div>
+    
+    
+    <div class="section_2">
+        <img class="frontpage_picture" src={homepage_picture} alt="">
+    </div>
+    
+    
+    
 </div>
 
 
 
 
 <style>
-    .space{
-        height: 15em;
+
+
+    .frontpage {
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+        margin-left: 2em;
+    }
+
+    .section_1{
+        margin-top: 15em;
     }
 
     .hello{
@@ -53,11 +75,11 @@
         margin-bottom: 0.25em;
         margin-top: 0em;
         margin-left: 5.175em;
+        width: fit-content;
 
     }
 
     .myname{
-        text-align: left;
         color: white;
         text-shadow: 0px 0px 10px #024D98,
                     0px 0px 10px #024D98,
@@ -70,14 +92,16 @@
         margin-bottom: 0em;
         margin-top: 0em;
         margin-left: 1.5em;
+        width: fit-content;
     }
 
     .btns{
         display: flex;
         flex-direction: row;
         gap: 2.5em;
-        margin-left: 8em;
-        margin-top: 2em;
+        margin-left: 6.5em;
+        padding: 20px;
+        width: fit-content;
     }
 
     .btns:has(.button:hover) .button:not(:hover){
@@ -100,6 +124,13 @@
     .logo{
         width: 3em;
         height: auto;
+    }
+
+    .frontpage_picture{
+        display: flex;
+        justify-content: flex-end;
+        height: 45em;
+        width: fit-content;
     }
 </style>
 
