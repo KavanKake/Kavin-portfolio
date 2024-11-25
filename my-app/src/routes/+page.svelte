@@ -61,6 +61,7 @@
         gap: 10em;
         margin-left: 2em;
         overflow-x: hidden;
+        overflow-y: none;
     }
 
     .section_1{
@@ -136,7 +137,7 @@
 
 
 
-    @media (max-width: 990px) {
+    @media (max-width: 1167px) {
         .frontpage {
             gap: 1em;
             margin-left: 0;
@@ -151,6 +152,11 @@
         }
     }
 
+    @media (max-width: 730px) {
+        .frontpage_picture{
+            opacity: 0;
+        }
+    }
 
     @media (max-width: 570px) {
         .frontpage_picture{

@@ -1,11 +1,16 @@
 <script>
     import img from "$lib/assets/logobackground0.png";
+
+    import { Hamburger } from 'svelte-hamburgers';
+    import { fly } from 'svelte/transition';
+
+    let open = $state(false);
 </script>
 
 
 <nav>
     <img class= "logo-navbar" src={img} alt="logo"/>
-    <ul>
+    <ul class="links">
         <li>
             <a href="/">Home</a>
         </li>
@@ -22,6 +27,29 @@
             <a class = "contactme" href="/contactme">Contact me</a>
         </li>
     </ul>  
+
+    <div class="hamburger">
+        <Hamburger
+        bind:open
+        type="collapse"
+        title="Toggle nav links"
+        ariaControls="nav"
+        --color="#024D98"
+    />
+
+    {#if open}
+        <ul id="nav" class="menu" transition:fly={{y: -15 }}>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">projects</a></li>
+            <li><a href="/extrapages">Extra pages</a></li>
+            <li><a class = "contactme" href="/contactme">Contactme</a></li>
+        </ul>
+    {/if}
+    </div>
+    
+
+
+
 </nav>
 
 
@@ -33,9 +61,8 @@
     nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;   
-        background-color: whitesmoke; 
-        overflow-x: hidden;
+        align-items: center;    
+
 
     }
     ul {
@@ -72,6 +99,9 @@
         padding: 10px;
     }
 
+    .hamburger {
+        display: none;
+    }
 
     @media (max-width: 1040px) {
         .logo-navbar {
@@ -80,6 +110,34 @@
         a {
             font-size: 1em;
         }
+        .contactme {
+            display: flex;
+            background-color: transparent;
+            color: #024D98;
+            padding: 0;
+
+        }
+    }
+    @media (max-width: 655px) {
+        .hamburger {
+            display: flex;
+        }
+        .links {
+            display: none;
+        }
+
+        a {
+            font-size: 1em;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+
+    
     }
 </style>
+
+
+
 

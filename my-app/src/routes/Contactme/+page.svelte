@@ -1,3 +1,10 @@
+<script>
+
+</script>
+
+
+
+
 <div class="frontpage">
     <div class="section_1">
         <h1>Would you like to contact me?</h1>
@@ -11,6 +18,25 @@
 
     </div>
 
+    <div class="section_2">
+        <h1 class="contactform">Contact form</h1>
+        <form method="POST" action="https://formsubmit.co/Kavin_Lokeswaran1407@outlook.com">
+            <h3 class="name">Your name</h3>
+            <input name="Name" type="text" class="placeholder" placeholder="Enter your name" required>
+            <h3 class="name">Your e-mail</h3>
+            <input name="Email" type="email" class="placeholder" placeholder="Enter your e-mail" required>
+            <h3 class="name">Topic</h3>
+            <input name="Topic" type="text" class="placeholder" placeholder="Enter your topic">
+            <h3 class="name">Message</h3>
+            <textarea name="Message" placeholder="Enter message"></textarea>
+            <button class="submit"type="submit">Send in</button>
+        </form>
+    </div>
+
+        
+
+
+
 
 
 
@@ -20,9 +46,25 @@
 
 
 
+
+
+
+
+
+
 <style>
     *{
         margin: 0;
+    }
+
+    .frontpage {
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+        margin-left: 2em;
+        overflow-x: hidden;
+        overflow-y: none;
+        font-family: coolvetica;
     }
 
     .section_1 {
@@ -34,16 +76,108 @@
         margin-top: 5em;
         margin-left: 3em;
 
-        font-family: coolvetica;
+        
     }
+
+    .section_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center ;
+        border: #024D98 10px solid;
+        border-radius: 20px;
+        padding: 1.5em;
+        margin-top: 2em;
+        margin-right: 5em;
+        margin-bottom: 2em;
+
+        height: fit-content;
+        width: 35em;
+        
+        
+    }
+
+    .contactform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: coolvetica;
+        color: black;
+        font-size: 2.5em;
+    }
+
+    form{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    textarea {
+        height: 10em;
+        border-radius: 10px;
+        font-family: coolvetica;
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .name {
+        padding-top: 0.5em;
+        font-size: 1em;
+        color: black;
+        
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+
+        padding: 0.5em;
+        border-radius: 0.5em;
+        border: 0;
+        color: white;
+        background-color: #024D98; ;
+        width: 10em;
+    }
+
+
+    button:hover {
+        cursor: pointer;
+        background-color: #024D98;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .placeholder {
+        color: black;
+        font-family: coolvetica;
+        font-size: 1em;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+
 
     h3 {
         color: black;
-        text-shadow: 0px 0px 10px #024D98,
-                    0px 0px 10px #024D98,
-                    0px 0px 20px #024D98,
+        
 
     } 
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        
+        margin-top: 15em;
+        font-size: 1.5em;
+        color: black;
+        padding: 0.5em;
+        border: 2px #024D98 solid;
+        
+    }
 
 
 
