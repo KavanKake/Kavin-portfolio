@@ -6,6 +6,7 @@
     import face from "$lib/assets/facebook_logo.png";  
     import linkedin_black from "$lib/assets/linkedin_black.png"; 
     import homepage_picture from "$lib/assets/homepage_farge_transparent.png";
+    import Footer from "$lib/Components/Footer.svelte";
 </script>
 
 
@@ -50,6 +51,8 @@
     
 </div>
 
+<Footer/>
+
 
 
 
@@ -62,6 +65,10 @@
         margin-left: 2em;
         overflow-x: hidden;
         overflow-y: none;
+    }
+
+    .space {
+        height: 7.5em;
     }
 
     .section_1{

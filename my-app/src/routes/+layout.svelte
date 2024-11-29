@@ -9,21 +9,23 @@
 
 
 <nav>
+
+    
     <img class= "logo-navbar" src={img} alt="logo"/>
     <ul class="links">
-        <li>
+        <li class="knapper">
             <a href="/">Home</a>
         </li>
-        <li>
+        <li class="knapper">
             <a href="/projects">Projects</a>
         </li>
-        <li>
+        <li class="knapper">
             <a href="/aboutme">About me</a>
         </li>
-        <li>
+        <li class="knapper">
             <a href="/extrapages">Extra pages</a>
         </li>
-        <li>
+        <li class="blå_knapp">
             <a class = "contactme" href="/contactme">Contact me</a>
         </li>
     </ul>  
@@ -49,7 +51,6 @@
     
 
 
-
 </nav>
 
 
@@ -60,12 +61,18 @@
 <style>
     nav {
         display: flex;
+        position: fixed;
+        width: 100%;
         justify-content: space-between;
-        align-items: center;    
-
+        align-items: center;   
+        border-bottom: 2px solid #024D98; 
+        box-shadow: 0px 0px 10px #024D98;
+        background-color: white;
 
     }
-    ul {
+
+
+    .links {
         display: flex;
         list-style: none; 
         text-decoration: none;
@@ -76,6 +83,17 @@
         margin-right: 40px;
         text-decoration: none;
     }
+
+    .knapper {
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+    .links .knapper a:hover {
+	color: #024D98;
+	transition: 0.3s;
+}
+
 
     .logo-navbar {
         width: 80px;
@@ -101,6 +119,48 @@
 
     .hamburger {
         display: none;
+    }
+
+    nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    }
+
+    nav li {
+    position: relative; 
+    }
+
+    nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    display: inline-block;
+    }
+
+  
+    nav .knapper a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #024D98;
+    transition: width 0.3s ease;
+    }
+
+    nav a:hover::after {
+    width: 100%;
+    }
+
+    .contactme:hover {
+        background-color: white;
+        color: #024D98;
+        transition: 0.3s;
+        
     }
 
     @media (max-width: 1040px) {

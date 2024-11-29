@@ -1,10 +1,11 @@
 <script>
-
+import email from "$lib/assets/mail.png";
+import Footer from "$lib/Components/Footer.svelte";
 </script>
 
 
 
-
+<div class="spacer"></div>
 <div class="frontpage">
     <div class="section_1">
         <h1>Would you like to contact me?</h1>
@@ -12,7 +13,7 @@
         <h3>Or send a mail to the e-mail down below</h3>
 
         <div class="email">
-            <h3>E-mail:</h3>
+            <img class="mail_logo"src="{email}" alt="E-mail">
             <h3>contact@kavinlokeswaran.no</h3>
         </div>
 
@@ -41,6 +42,7 @@
 
 
 </div>
+<Footer/>
 
 
 
@@ -57,6 +59,10 @@
         margin: 0;
     }
 
+    .spacer{
+        height: 7.5em;
+    }
+
     .frontpage {
         display: flex;
         flex-direction: row;
@@ -65,6 +71,7 @@
         overflow-x: hidden;
         overflow-y: none;
         font-family: coolvetica;
+
     }
 
     .section_1 {
@@ -133,7 +140,8 @@
         justify-content: center;
         align-items: center;
         margin-top: 1em;
-
+        font-family: coolvetica;
+        font-size: 1em;
         padding: 0.5em;
         border-radius: 0.5em;
         border: 0;
@@ -159,7 +167,11 @@
         border-radius: 10px;
     }
 
-
+    .mail_logo {
+        width: 2em;
+        height: auto;
+        margin-right: 0.5em;
+    }
 
     h3 {
         color: black;
@@ -170,7 +182,7 @@
     .email {
         display: flex;
         flex-direction: row;
-        
+        align-items: center;
         margin-top: 15em;
         font-size: 1.5em;
         color: black;
@@ -179,6 +191,26 @@
         
     }
 
+    @media (max-width: 950px) {
+        .frontpage {
+            gap: 1em;
+            margin-left: 0;
+        }
+    }
 
+    @media (max-width: 780px) {
+        .section_1{
+            display: none;
+        }
 
+        .frontpage{
+            margin-left: 2em;
+            justify-content: center;
+        }
+
+        .section_2{
+            margin-right: 2em;
+        }
+
+    }
 </style>
