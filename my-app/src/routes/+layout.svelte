@@ -22,9 +22,6 @@
         <li class="knapper">
             <a href="/aboutme">About me</a>
         </li>
-        <li class="knapper">
-            <a href="/extrapages">Extra pages</a>
-        </li>
         <li class="blå_knapp">
             <a class = "contactme" href="/contactme">Contact me</a>
         </li>
