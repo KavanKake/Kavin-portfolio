@@ -40,7 +40,7 @@
         <ul id="nav" class="menu" transition:fly={{y: -15 }}>
             <li><a href="/">Home</a></li>
             <li><a href="/projects">projects</a></li>
-            <li><a href="/extrapages">Extra pages</a></li>
+            <!-- <li><a href="/extrapages">Extra pages</a></li> -->
             <li><a class = "contactme" href="/contactme">Contactme</a></li>
         </ul>
     {/if}
@@ -153,10 +153,16 @@
     width: 100%;
     }
 
+    .menu {
+        gap: 10px;
+    }
+
     .contactme:hover {
         background-color: white;
         color: #024D98;
         transition: 0.3s;
+        border: #024D98 2px solid;
+        padding: 7.5px;
         
     }
 
@@ -191,6 +197,9 @@
             flex-direction: column;
         }
 
+        nav {
+            justify-content: none;
+        }
     
     }
 </style>

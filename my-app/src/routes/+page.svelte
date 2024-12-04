@@ -109,6 +109,7 @@
         flex-direction: row;
         gap: 2.5em;
         padding: 20px;
+        padding-left: 0px;
         width: fit-content;
     }
 

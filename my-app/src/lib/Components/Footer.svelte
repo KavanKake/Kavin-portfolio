@@ -73,6 +73,7 @@
         color: white;
         font-family: coolvetica;
         position: relative;
+        width: 100%;
     }
 
     .section1{

@@ -24,7 +24,7 @@
         </div>
 
         <div class="tekst">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget dignissim odio. Duis imperdiet consectetur orci, eget imperdiet diam tempus non. Integer mi enim, ornare ullamcorper hendrerit nec, ornare eu odio. Vivamus pretium diam et purus accumsan, ac ullamcorper ligula maximus. Morbi blandit purus diam. Nunc et quam nunc. Curabitur a placerat leo. Aenean nec velit ultricies, mollis nibh vel, rutrum arcu. Aenean id lacinia purus, et sagittis lacus.</p>
+            <p>Hello, my name is Kavin Lokeswaran. I am a passionate IT student with a strong interest in technology, programming, at Elvebakken VGS in Oslo, Norway. I am currently studying IT, because I enjoy understanding how technology work and how it could improve our daily lives. I have worked with many projects, for example this website. When I’m not working on IT related projects, I enjoy playing games or play football. My dream is to became an IT engineer. </p>
         </div>
     </div>
     
@@ -99,6 +99,24 @@
 
     h3{
         margin: 0;
+    }
+
+    @media (max-width: 1280px) {
+        .aboutme{
+            gap: 1em;
+        }
+
+    }
+
+    @media (max-width: 1180px) {
+        .aboutme{
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .section_2{
+            margin-left: 1em;
+        }
     }
 </style>
 
