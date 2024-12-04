@@ -9,9 +9,6 @@
     import Footer from "$lib/Components/Footer.svelte";
 </script>
 
-
-
-
 <div class="space"></div>
 <div class="frontpage">
     <div class="section_1">
@@ -53,9 +50,6 @@
 
 <Footer/>
 
-
-
-
 <style>
 
     .frontpage {
@@ -76,6 +70,11 @@
         margin-left: 6em;
     }
 
+    .section_2{
+        margin-top: 5em;
+        height: fit-content;
+    }
+
     .hello{
         text-align: left;
         color: black;
@@ -83,7 +82,6 @@
         font-size: 1.5em;   
         margin-bottom: 0.25em;
         margin-top: 0em;
-
         width: fit-content;
 
     }

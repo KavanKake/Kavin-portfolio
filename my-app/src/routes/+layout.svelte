@@ -74,22 +74,26 @@
         list-style: none; 
         text-decoration: none;
         font-size: 1.45em;   
+        align-items: center;
     }
 
     li {
         margin-right: 40px;
         text-decoration: none;
+        text-align: center;
     }
 
     .knapper {
         text-decoration: none;
         margin-right: 40px;
+        padding:0;
     }
 
     .links .knapper a:hover {
 	color: #024D98;
 	transition: 0.3s;
-}
+    padding-bottom: 5px;
+    }   
 
 
     .logo-navbar {
@@ -104,6 +108,7 @@
         font-size: 1.2em;
         text-decoration: none;
         color: black;
+        padding: 0;
     }
 
     .contactme {
@@ -133,7 +138,6 @@
     nav a {
     text-decoration: none;
     color: black;
-    padding: 5px 0;
     display: inline-block;
     }
 

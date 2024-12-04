@@ -65,6 +65,7 @@
         width: auto;
         height:35em;
         border: 3px solid #024D98;
+        z-index: -1;
     }
 
     .overskrift{
@@ -103,19 +104,25 @@
 
     @media (max-width: 1280px) {
         .aboutme{
-            gap: 1em;
-        }
-
-    }
-
-    @media (max-width: 1180px) {
-        .aboutme{
             flex-direction: column;
             gap: 1em;
         }
 
         .section_2{
             margin-left: 1em;
+        }
+
+        .conteiner {
+            scale: 0.8;
+            height: 30em;
+        }
+
+        .section_1{
+            margin-left: 0em;
+        }
+
+        .tekst{
+            width: 100%;
         }
     }
 </style>

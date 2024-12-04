@@ -97,9 +97,10 @@ import Footer from "$lib/Components/Footer.svelte";
         margin-top: 2em;
         margin-right: 5em;
         margin-bottom: 2em;
-
+        scale: 0.9;
         height: fit-content;
         width: 35em;
+        z-index: -1;
         
         
     }
@@ -183,7 +184,7 @@ import Footer from "$lib/Components/Footer.svelte";
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-top: 15em;
+        margin-top: 10em;
         font-size: 1.5em;
         color: black;
         padding: 0.5em;
@@ -191,17 +192,8 @@ import Footer from "$lib/Components/Footer.svelte";
         
     }
 
-    @media (max-width: 950px) {
-        .frontpage {
-            gap: 1em;
-            margin-left: 0;
-        }
-    }
 
-    @media (max-width: 780px) {
-        .section_1{
-            display: none;
-        }
+    @media (max-width: 950px) {
 
         .frontpage{
             margin-left: 2em;
