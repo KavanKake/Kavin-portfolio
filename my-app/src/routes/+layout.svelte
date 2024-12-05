@@ -1,5 +1,5 @@
 <script>
-    import img from "$lib/assets/logobackground0.png";
+    import img from "$lib/assets/logo_portfolio.png";
 
     import { Hamburger } from 'svelte-hamburgers';
     import { fly } from 'svelte/transition';
@@ -100,7 +100,8 @@
         width: 80px;
         height: auto;
         margin-left: 7.5em;
-        scale: 1.5;
+        padding: 15px;
+        scale: 1.2;
     } 
 
     a {

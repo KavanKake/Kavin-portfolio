@@ -200,6 +200,10 @@ import Footer from "$lib/Components/Footer.svelte";
             justify-content: center;
         }
 
+        .section_1{
+            display: none;
+        }
+
         .section_2{
             margin-right: 2em;
         }
