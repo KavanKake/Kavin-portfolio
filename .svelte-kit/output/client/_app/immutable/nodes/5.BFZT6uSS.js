@@ -1,0 +1,1 @@
+import{a as t,t as e}from"../chunks/disclose-version.DZ49Zhap.js";import{s,f as i}from"../chunks/runtime.BIEvs8s_.js";import{F as p}from"../chunks/Footer.BAAbZj_X.js";var m=e('<div class="spacer svelte-bge077"></div> <!>',1);function c(o){var a=m(),r=s(i(a),2);p(r),t(o,a)}export{c as component};

@@ -1,0 +1,289 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Footer.js": {
+    "file": "chunks/Footer.js",
+    "name": "Footer",
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Footer.BQHW8l5z.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/github_white.DggO8tzb.png",
+      "_app/immutable/assets/instagram_white.BRIjicq_.png",
+      "_app/immutable/assets/face_white.BatIwoYe.png",
+      "_app/immutable/assets/Linkedin_white.CFOF9PZ_.png"
+    ]
+  },
+  "_Goback.js": {
+    "file": "chunks/Goback.js",
+    "name": "Goback",
+    "assets": [
+      "_app/immutable/assets/Goback.C2wQpVCx.png"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_internal.js",
+      "_exports.js"
+    ]
+  },
+  "src/lib/assets/Goback.png": {
+    "file": "_app/immutable/assets/Goback.C2wQpVCx.png",
+    "src": "src/lib/assets/Goback.png"
+  },
+  "src/lib/assets/Homepage_farge_transparent.png": {
+    "file": "_app/immutable/assets/Homepage_farge_transparent.DnSBGq-Z.png",
+    "src": "src/lib/assets/Homepage_farge_transparent.png"
+  },
+  "src/lib/assets/Linkedin_white.png": {
+    "file": "_app/immutable/assets/Linkedin_white.CFOF9PZ_.png",
+    "src": "src/lib/assets/Linkedin_white.png"
+  },
+  "src/lib/assets/Logo_portfolio.png": {
+    "file": "_app/immutable/assets/Logo_portfolio.CgoxYn6N.png",
+    "src": "src/lib/assets/Logo_portfolio.png"
+  },
+  "src/lib/assets/aboutme.jpg": {
+    "file": "_app/immutable/assets/aboutme.CcVgl0gD.jpg",
+    "src": "src/lib/assets/aboutme.jpg"
+  },
+  "src/lib/assets/face_white.png": {
+    "file": "_app/immutable/assets/face_white.BatIwoYe.png",
+    "src": "src/lib/assets/face_white.png"
+  },
+  "src/lib/assets/facebook_logo.png": {
+    "file": "_app/immutable/assets/facebook_logo.COOlU6Uu.png",
+    "src": "src/lib/assets/facebook_logo.png"
+  },
+  "src/lib/assets/github_black.png": {
+    "file": "_app/immutable/assets/github_black.DnR4NS1Z.png",
+    "src": "src/lib/assets/github_black.png"
+  },
+  "src/lib/assets/github_white.png": {
+    "file": "_app/immutable/assets/github_white.DggO8tzb.png",
+    "src": "src/lib/assets/github_white.png"
+  },
+  "src/lib/assets/instagram_logo.png": {
+    "file": "_app/immutable/assets/instagram_logo.D79q7f9v.png",
+    "src": "src/lib/assets/instagram_logo.png"
+  },
+  "src/lib/assets/instagram_white.png": {
+    "file": "_app/immutable/assets/instagram_white.BRIjicq_.png",
+    "src": "src/lib/assets/instagram_white.png"
+  },
+  "src/lib/assets/linkedin_black.png": {
+    "file": "_app/immutable/assets/linkedin_black.Od82K778.png",
+    "src": "src/lib/assets/linkedin_black.png"
+  },
+  "src/lib/assets/mail.png": {
+    "file": "_app/immutable/assets/mail.B1MmeS03.png",
+    "src": "src/lib/assets/mail.png"
+  },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "name": "entries/pages/_layout",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DPn7ZtuJ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Logo_portfolio.CgoxYn6N.png"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DSVf4jb2.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/github_black.DnR4NS1Z.png",
+      "_app/immutable/assets/instagram_logo.D79q7f9v.png",
+      "_app/immutable/assets/facebook_logo.COOlU6Uu.png",
+      "_app/immutable/assets/linkedin_black.Od82K778.png",
+      "_app/immutable/assets/Homepage_farge_transparent.DnSBGq-Z.png"
+    ]
+  },
+  "src/routes/aboutme/+page.svelte": {
+    "file": "entries/pages/aboutme/_page.svelte.js",
+    "name": "entries/pages/aboutme/_page.svelte",
+    "src": "src/routes/aboutme/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B8l7wm_F.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/aboutme.CcVgl0gD.jpg"
+    ]
+  },
+  "src/routes/contactme/+page.svelte": {
+    "file": "entries/pages/contactme/_page.svelte.js",
+    "name": "entries/pages/contactme/_page.svelte",
+    "src": "src/routes/contactme/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.C1ULf37A.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/mail.B1MmeS03.png"
+    ]
+  },
+  "src/routes/extrapages/+page.svelte": {
+    "file": "entries/pages/extrapages/_page.svelte.js",
+    "name": "entries/pages/extrapages/_page.svelte",
+    "src": "src/routes/extrapages/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.7ybJ_XqV.css"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "entries/pages/projects/_page.svelte.js",
+    "name": "entries/pages/projects/_page.svelte",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_Footer.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BtV_L8xh.css"
+    ]
+  },
+  "src/routes/projects/HTML,CSS,JS/+page.svelte": {
+    "file": "entries/pages/projects/HTML_CSS_JS/_page.svelte.js",
+    "name": "entries/pages/projects/HTML_CSS_JS/_page.svelte",
+    "src": "src/routes/projects/HTML,CSS,JS/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js",
+      "_Goback.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CwbzTQlJ.css"
+    ]
+  },
+  "src/routes/projects/other/+page.svelte": {
+    "file": "entries/pages/projects/other/_page.svelte.js",
+    "name": "entries/pages/projects/other/_page.svelte",
+    "src": "src/routes/projects/other/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js",
+      "_Goback.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BEmC5NKk.css"
+    ]
+  },
+  "src/routes/projects/python/+page.svelte": {
+    "file": "entries/pages/projects/python/_page.svelte.js",
+    "name": "entries/pages/projects/python/_page.svelte",
+    "src": "src/routes/projects/python/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js",
+      "_Goback.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.QptkU761.css"
+    ]
+  },
+  "src/routes/projects/python/basic_python/+page.svelte": {
+    "file": "entries/pages/projects/python/basic_python/_page.svelte.js",
+    "name": "entries/pages/projects/python/basic_python/_page.svelte",
+    "src": "src/routes/projects/python/basic_python/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js",
+      "_Goback.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Dn09uuzq.css"
+    ]
+  },
+  "src/routes/projects/python/python_games/+page.svelte": {
+    "file": "entries/pages/projects/python/python_games/_page.svelte.js",
+    "name": "entries/pages/projects/python/python_games/_page.svelte",
+    "src": "src/routes/projects/python/python_games/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Footer.js",
+      "_Goback.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DDze9TxS.css"
+    ]
+  }
+}
