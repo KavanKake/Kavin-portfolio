@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.bQ4JVC07.js",
+    "file": "_app/immutable/entry/app.BKkAa5LY.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -46,7 +46,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.DVBjJRDw.js",
+    "file": "_app/immutable/nodes/1.DA85G2Nf.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -55,7 +55,7 @@
       "_disclose-version.DZ49Zhap.js",
       "_runtime.BIEvs8s_.js",
       "_store.XdhP3dF7.js",
-      "_entry.kL7zCAHI.js"
+      "_entry.BShKBZUI.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/10.js": {
@@ -277,8 +277,8 @@
       "_runtime.BIEvs8s_.js"
     ]
   },
-  "_entry.kL7zCAHI.js": {
-    "file": "_app/immutable/chunks/entry.kL7zCAHI.js",
+  "_entry.BShKBZUI.js": {
+    "file": "_app/immutable/chunks/entry.BShKBZUI.js",
     "name": "entry",
     "imports": [
       "_runtime.BIEvs8s_.js"
@@ -305,12 +305,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.CVI5e64C.js",
+    "file": "_app/immutable/entry/start.aknmbFmM.js",
     "name": "entry/start",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.kL7zCAHI.js"
+      "_entry.BShKBZUI.js"
     ]
   },
   "src/lib/assets/Goback.png": {
