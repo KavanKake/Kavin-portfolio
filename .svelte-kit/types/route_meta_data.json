@@ -1,0 +1,33 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/aboutme": [
+		"src/routes/+layout.js"
+	],
+	"/contactme": [
+		"src/routes/+layout.js"
+	],
+	"/extrapages": [
+		"src/routes/+layout.js"
+	],
+	"/projects": [
+		"src/routes/+layout.js"
+	],
+	"/projects/HTML,CSS,JS": [
+		"src/routes/+layout.js"
+	],
+	"/projects/other": [
+		"src/routes/+layout.js"
+	],
+	"/projects/python": [
+		"src/routes/+layout.js"
+	],
+	"/projects/python/basic_python": [
+		"src/routes/+layout.js"
+	],
+	"/projects/python/python_games": [
+		"src/routes/+layout.js"
+	]
+}
