@@ -131,14 +131,14 @@ button:hover{
     justify-content: space-evenly;
 }
 
-.section_2{
+/* .section_2{
     display: flex;
     flex-direction: column;
     gap: 1.5em;
     font-size: 1.25em;
     font-family: "coolvetica";
     justify-content: space-evenly;
-}
+} */
 
 a{
     text-decoration: none;
